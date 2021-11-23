@@ -14,7 +14,7 @@ class PokemonPage extends React.Component {
         <br />
         <Search />
         <br />
-        <PokemonCollection />
+        <PokemonCollection pokemon={this.props.pokemon} />
       </Container>
     )
   }
